@@ -1,0 +1,25 @@
+{
+  "name": "crud-node-angular-mongo-materialize",
+  "version": "1.0.0",
+  "description": "Simples crud utilizando node, angular, mongo e materialize",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "",
+    "express": "",
+    "mongojs": ""
+  },
+  "scripts": {
+    "test": "echo \"Erro: Nenhum teste especificado\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabio91oliveira/crud-node-angular-mongo-materialize"
+  },
+  "author": "Fabio Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabio91oliveira"
+  },
+  "email": "fabio91oliveira@gmail.com"
+}

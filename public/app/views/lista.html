@@ -1,0 +1,44 @@
+<div id="centralizar" class="row" ng-controller="ListaCtrl">
+<div class="col s8" ng-init="init()">
+<div class="section"></div>
+<table class="bordered center" ng-repeat="usuario in usuarios">
+       <thead>
+         <tr>
+             <th data-field="name">Nome</th>
+             <th data-field="email">E-mail</th>
+         </tr>
+       </thead>
+
+       <tbody>
+         <tr>
+           <td>{{usuario.name}}</td>
+           <td>{{usuario.email}}</td>
+         </tr>
+       </tbody>
+     </table>
+
+     <table class="bordered center" ng-show="!usuarios.length">
+       <thead>
+         <tr>
+             <th data-field="name">Nome</th>
+             <th data-field="email">E-mail</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>Não há nenhum registro</td>
+           <td></td>
+         </tr>
+       </tbody>
+     </table>
+
+</div>
+</div>
+
+<div class="section"></div>
+<div class="section"></div>
+<div class="section"></div>
+<div class="section"></div>
+<div class="section"></div>
+<div class="section"></div>
+<div class="section"></div>
